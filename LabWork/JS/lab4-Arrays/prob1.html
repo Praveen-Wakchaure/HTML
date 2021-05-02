@@ -1,0 +1,24 @@
+<html>
+<head>
+        <style type="text/css">
+            title {    
+            border-bottom: 1px dotted #000;
+            text-decoration: none;
+        }
+        </style>
+
+	<title>List of Employees</title>
+	<script type="text/javascript">
+		var students = new Array("Tove", "Hege", "Stale", "Kai Jim", "Borge","undefined");
+		Array.prototype.displayItems=function(){
+			for (i=0;i<this.length;i++){
+				document.write(this[i] + "<br />");
+			}
+		}	
+		document.write("List of Employees<br />");
+		students.displayItems();
+	</script>
+</head>
+<body>
+</body>
+</html>
